@@ -28,14 +28,45 @@ CREATE TABLE projects (
 
 -- Updated INSERT statements for the projects table (Group 13)
 -- Now includes 'judges_score' (to match CREATE TABLE) and 'supervisor'
-INSERT INTO projects (project_title, student_name, category, abstract, grade_level, judges_score, supervisor) VALUES
-('Web Development', 'Alice Mwansa', 'Web Technology', 'Interactive website showcasing HTML, CSS, and JavaScript.', 12, 91.50, 'Mr. Bwalya'),
-('Pipelining Simulation', 'Brian Tembo', 'Computer Architecture', 'Diagram and simulation of instruction pipelining in modern CPUs.', 12, 88.00, 'Dr. Sikazwe'),
-('Population Parameter for Mulungushi University', 'Chipo Banda', 'Statistics', 'Statistical analysis using graphs and charts of university demographic data.', 11, 85.25, 'Ms. Mwale'),
-('Digital Logic Gates', 'Daniel Phiri', 'Digital Design', 'Logic gate circuits demonstrated using simulation tools and physical kits.', 10, 89.90, 'Dr. Sikazwe'),
-('Computer History Database', 'Emily Zulu', 'Database', 'Timeline supported by a structured database of computer evolution facts.', 12, 94.75, 'Mr. Bwalya'),
-('Java Calculator Application', 'Felix Mwape', 'OOP & JAVA', 'Java-based calculator with GUI and basic arithmetic operations.', 11, 87.50, 'Ms. Mwale'),
-('Network Security Basics', 'Grace Chanda', 'Networking', 'Introduction to cybersecurity threats and defensive techniques.', 12, 92.00, 'Mr. Bwalya'),
-('Mobile App for Student Timetables', 'Hassan Ng’ombe', 'Mobile Development', 'Android app that helps students manage class timetables efficiently.', 11, 90.10, 'Dr. Sikazwe'),
-('AI Chatbot for Library Assistance', 'Ireen Musonda', 'Artificial Intelligence', 'Chatbot system designed to help students locate library materials.', 12, 95.50, 'Ms. Mwale'),
-('Database for School Inventory', 'Jackson Lungu', 'Database', 'SQL-based inventory management system for tracking school assets.', 10, 84.90, 'Mr. Bwalya');
+INSERT INTO science_fair_projects
+(student_name, project_title, category, abstract, grade_level, supervisor)
+VALUES
+('Jenipher Mumba', 'Web Development', 'Web Technology',
+ 'Interactive website showcasing HTML, CSS, and JavaScript.',
+ 12, 'Mr. Bwalya'),
+
+('Brian Tembo', 'Pipelining Simulation', 'Computer Architecture',
+ 'Diagram and simulation of instruction pipelining in modern CPUs.',
+ 12, 'Dr. Sikazwe'),
+
+('Kondwani Muwamba', 'Population Parameter for Mulungushi University', 'Statistics',
+ 'Statistical analysis using graphs and charts of university demographic data.',
+ 11, 'Ms. Mwale'),
+
+('Elizabeth Namukonda', 'Digital Logic Gates', 'Digital Design',
+ 'Logic gate circuits demonstrated using simulation tools and physical kits.',
+ 10, 'Dr. Sikazwe'),
+
+('John Smith', 'Computer History Database', 'Database',
+ 'Timeline supported by a structured database of computer evolution facts.',
+ 12, 'Mr. Bwalya'),
+
+('Felix Mwape', 'Java Calculator Application', 'OOP & JAVA',
+ 'Java-based calculator with GUI and basic arithmetic operations.',
+ 11, 'Ms. Mwale'),
+
+('Grace Chanda', 'Network Security Basics', 'Networking',
+ 'Introduction to cybersecurity threats and defensive techniques.',
+ 12, 'Mr. Bwalya'),
+
+('Hassan Ng’ombe', 'Mobile App for Student Timetables', 'Mobile Development',
+ 'Android app that helps students manage class timetables efficiently.',
+ 11, 'Dr. Sikazwe'),
+
+('Ireen Musonda', 'AI Chatbot for Library Assistance', 'Artificial Intelligence',
+ 'Chatbot system designed to help students locate library materials.',
+ 12, 'Ms. Mwale'),
+
+('Nema Kanyondwi', 'Database for School Inventory', 'Database',
+ 'SQL-based inventory management system for tracking school assets.',
+ 10, 'Mr. Bwalya');
